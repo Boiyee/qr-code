@@ -6,23 +6,111 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <title>Frontend Mentor | QR code component</title>
+  <title>QR code component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!--Google fonts-->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap">
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+
+    :root {
+      --white: hsl(0, 0%, 100%);
+      --light-grey: hsl(212, 45%, 89%);
+      --grayish-blue: hsl(220, 15%, 55%);
+      --dark-blue: hsl(218, 44%, 22%);
+      --font-family: 'Outfit', sans-serif;
+      --font-weight-normal: 400;
+      --font-weight-bold: 700;
+      --border-radius: 20px;
+      --box-shadow: 0 25px 25px rgba(0, 0, 0, 0.0477);
+    }
+
+    .attribution { 
+      font-size: 11px;
+      text-align: center;
+      margin-top: 20px;
+      color: var(--grayish-blue);
+    }
+
+    .attribution a { 
+      color: var(--dark-blue);
+    }
+
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: var(--font-family);
+      background-color: var(--light-grey);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 28px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 320px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background-color: var(--white);
+      border-radius: var(--border-radius);
+      padding: 16px;
+      box-shadow: var(--box-shadow);
+      text-align: center;
+    }
+
+    .qr-code {
+      width: 100%;
+      border-radius: 10px;
+      display: block;
+    }
+
+    .content {
+      padding: 24px 16px;
+    }
+
+    h1 {
+      font-size: 22px;
+      font-weight: var(--font-weight-bold);
+      color: var(--dark-blue);
+      line-height: 1.27;
+      margin-bottom: 16px;
+    }
+
+    p {
+      font-size: 22px;
+      font-weight: var(--font-weight-normal);
+      color: var(--grayish-blue);
+      line-height: 1.26;
+      letter-spacing: 0.19px;
+    }
   </style>
 </head>
 <body>
 
-  Improve your front-end skills by building projects
+  <main class="container">
+    <article class="card">
+      <img src="./images/image-qr-code.png" alt="QR code to frontendmentor" class="qr-code">
+      <div class="content">
+        <h1>Improve your front-end skills by building projects</h1>
+        <p>Scan the QR code to visit frontend Mentor and take your coding skills to the next level</p>
+      </div>
+    </article>
+  </main>
 
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/Boiyee">Boiyee</a>.
+  </footer>
 </body>
 </html>
