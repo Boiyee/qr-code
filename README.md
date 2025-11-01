@@ -57,7 +57,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Useful resources
 
 - [Resource 1](https://github.com/Boiyee/Calculator) - This helped me with some of my css codes. I really liked this pattern and will use it going forward. I'd recommend it to anyone still learning frontend development.
-- [Resource 2](https://github.com/Boiyee/Git_mastery) - This is an amazing approachwhen i was trying to understand more on git.
+- [Resource 2](https://github.com/Boiyee/Git_mastery) - This is an amazing approach when i was trying to understand more on git.
 
 ## Author
 
