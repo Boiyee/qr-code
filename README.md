@@ -24,7 +24,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/Boiyee/qr-code)
-- Live Site URL: [Live URL](https://localhost:5500/index.html)
+- Live Site URL: [Live URL]( https://boiyee.github.io/qr-code/)
 
 ## My process
 
