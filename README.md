@@ -64,6 +64,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Website - [Boiyee](https://www.github.com/Boiyee)
 - Frontend Mentor - [@Boiyee](https://www.frontendmentor.io/profile/Boiyee)
 - Twitter - [Boiyee](https://www.x.com/OduwaleJubreel)
+- Whatsapp - [Boiyee](wa.me/7052006201)
 
 ## Acknowledgments
 
